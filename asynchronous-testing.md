@@ -38,13 +38,13 @@ Since Exercise 2 already has its own folder setup, you'll only put Exercise 1 in
 Create an object that provides a Logging service. It has methods that write to a file, preappending the date and the type of information. This object needs to have the following functionality
 
 
-- The Logger object needs to have a function that initializes the logger, it takes a parameter that is the name of the log file. If the file does not exist, create it. If the file exists.
+- The Logger object needs to have a function that initializes the logger, it takes a parameter that is the name of the log file. If the file does not exist, create it. If the file exists, overwrite it.
 - If a `LOG`, `INFO`, `WARN`, `ERROR`, or `DEBUG` message is attempted to be logged without the Logger object, it should return false.
-- Log logging information, with the text `LOG` preappended to the information being logged.
-- Log information, with the text `INFO` preappended to the information being logged.
-- Log warnings, with the text `WARN` preappended to the information being logged.
--  Log errors, with the text `ERROR` preappended to the information being logged.
--  Log debugging messages, with the text `DEBUG` preappended to the information being logged
+- Create function to log logging information, with the text `LOG` preappended to the information being logged.
+- Create function to log information, with the text `INFO` preappended to the information being logged.
+- Create function to log warnings, with the text `WARN` preappended to the information being logged.
+-  Create function to log errors, with the text `ERROR` preappended to the information being logged.
+-  Create function to log debugging messages, with the text `DEBUG` preappended to the information being logged
 - If any of the file actions is unsuccessfull, return `false`. If the action was successful, return `true`.
 
 
