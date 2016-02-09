@@ -1,8 +1,10 @@
-function HelloWorld(){
-    this.helloWorld = function(){
-        return 'Hello World!';
+module.exports = {
+    helloWorld: function(){
+        return "Hello World!!";
+    },
+    greet: function(name){
+        return "Hello " + name + "!!"
     }
     
 }
 
-module.exports = HelloWorld;
