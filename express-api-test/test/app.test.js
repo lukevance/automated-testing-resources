@@ -17,7 +17,16 @@ describe('Test for super test', function(){
                 if (err) return done(err);
                 done();
                 });
-            })
+            });
+            it('should return the parameter', function(done){
+               request(app)
+               .get('/test/5')
+               .expect(200, {'id':6})
+               .end(function(err, res){
+                   if(err) return done(err);
+                   done();
+               }); 
+            });
         })
     })
 })

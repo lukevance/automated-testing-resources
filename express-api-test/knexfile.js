@@ -1,9 +1,7 @@
-// Update with your config settings.
-
 module.exports = {
   development: {
     client: 'pg',
-    connection: 'localhost/database-test',
+    connection: 'localhost/express-api-test',
     migrations: {
       tableName: 'knex_migrations'
     }
