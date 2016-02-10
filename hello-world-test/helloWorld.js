@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module.exports = {
     helloWorld: function(){
         return "Hello World!!";
@@ -8,3 +9,16 @@ module.exports = {
     
 }
 
+=======
+function HelloWorld(){
+    this.helloWorld = function(){
+        return 'Hello World!';
+    };
+    this.greet = function () {
+      return 'Hello Luke!';
+    };
+
+}
+
+module.exports = HelloWorld;
+>>>>>>> 491810bee7edce07be3eb77ff1ef6cc8699fcc7a

@@ -3,13 +3,29 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+<<<<<<< HEAD
+=======
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+>>>>>>> 491810bee7edce07be3eb77ff1ef6cc8699fcc7a
   "scripts": {
     "test": "mocha"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
   }
+=======
+  "license": "ISC"
+>>>>>>> 491810bee7edce07be3eb77ff1ef6cc8699fcc7a
 }
